@@ -12,3 +12,169 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(37, 37, 37);
+}
+
+header {
+    background-color: rgb(37, 37, 37);
+    height: 5vh;
+    width: auto;
+    padding: 25px 25px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title-bar {
+    margin-top: 10px;
+    color: rgb(42, 171, 226);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.nav-item {
+    color: white;
+}
+
+main {
+    padding: 25px 200px;
+}
+
+article {
+    box-sizing: border-box;
+    width: 50vw;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+
+p {
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+aside {
+    float: right;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+#profile {
+    justify-content: center;
+}
+
+#profile-pic {
+    margin-top: 50px;
+    height: 150px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+#profile-name {
+    margin-bottom: 50px;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+#articles {
+    margin-top: 50px;
+    height: 350px;
+
+}
+
+#articles-title {
+    margin-top: 25px;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+ol {
+    list-style: decimal;
+    height: 300px;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+#image-gallery {
+    width: 45vw;
+}
+#image-gallery-expand {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 35px;
+    color: rgb(42, 171, 226);
+}
+
+#inner-image-gallery {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40vw;
+}
+.gallery-thumbnail {
+    height: 125px;
+    margin: 20px;
+}
+footer {
+    display: flex;
+    background-color: rgb(42, 171, 226);
+    height: 3vh;
+    width: auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#tagline {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#question {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: solid rgb(37, 37, 37) 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+#question-mark {
+    color: rgb(37, 37, 37);
+    font-size: 1em;
+    font-weight: 800;
+}
